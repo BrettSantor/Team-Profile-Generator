@@ -16,7 +16,7 @@ This app will create a webpage with every team members information so that it ca
 ## Usage 
  You will need to launch from node to use this application
 ## Credits 
- none
+ All this coding made possible by [Jerome Chenette](https://github.com/jeromechenette) and my fellow students who help each other along the way
 ## Contributions 
  n/a
 ## License 

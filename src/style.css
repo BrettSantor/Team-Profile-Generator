@@ -1,0 +1,8 @@
+.teamCard{
+    border: solid blue;
+    border-radius: 15px;
+}
+
+.cardHeader{
+    background-color: red;
+}
