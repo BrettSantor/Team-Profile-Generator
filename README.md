@@ -1,7 +1,7 @@
 # Team Profile Generator
 ![badmath](https://img.shields.io/badge/license-None-red)
 ## description
-[video link to see the app in action](https://drive.google.com/file/d/1T64gr2LNvPoNcVd5DWWfh9OqbtTcvqKu/view?usp=sharing)
+[video link to see the app in action](https://drive.google.com/file/d/1XzNylAjA58qU68ZfKjMlzaKYjfvR06WB/view?usp=share_link)
 This app will create a webpage with every team members information so that it can be quickly accessed.
 ## Table of Contents 
  * [Installation](#installation)
