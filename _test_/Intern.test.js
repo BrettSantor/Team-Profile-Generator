@@ -24,35 +24,35 @@ describe('Intern', () => {
     })
     describe('getName', () => {
         it('should return the value of the name property', () => {
-            const Pete = new Intern('pete', id, email);
-            const nameTest = Pete.getName(this.name)
+            const Pete = new Intern('pete', 5, 'email');
+            const nameTest = Pete.getName()
             expect(nameTest).toEqual('pete')
         })
     })
     describe('getId', () => {
         it('should return the value of the id property', () => {
-            const Pete = new Intern(name, 2, email);
-            const idTest = Pete.getId(this.id)
+            const Pete = new Intern('name', 2, 'email');
+            const idTest = Pete.getId()
             expect(idTest).toEqual(2)
         })
     })
     describe('getEmail', () => {
         it('should return the value of the email property', () => {
-            const Pete = new Intern(name, id, 'test@yahoo.old');
-            const emailTest = Pete.getEmail(this.email)
+            const Pete = new Intern('name', 5, 'test@yahoo.old');
+            const emailTest = Pete.getEmail()
             expect(emailTest).toEqual('test@yahoo.old')
         })
     })
     describe('getSchool', () => {
         it('should return the value of the School property', () => {
-            const Pete = new Intern(name, id, email, "Berkley");
-            const schoolTest = Pete.getSchool(this.school)
+            const Pete = new Intern('name', 5, 'email', "Berkley");
+            const schoolTest = Pete.getSchool()
             expect(schoolTest).toEqual('Berkley')
         })
     })
     describe('getRole', () => {
         it('should return the value of the role property', () => {
-            const Pete = new Intern(name, id, email);
+            const Pete = new Intern('name', 5, 'email');
             expect(Pete.getRole()).toEqual('Intern')
         })
     })

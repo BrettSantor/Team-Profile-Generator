@@ -24,35 +24,35 @@ describe('Engineer', () => {
     })
     describe('getName', () => {
         it('should return the value of the name property', () => {
-            const Pete = new Engineer('pete', id, email);
-            const nameTest = Pete.getName(this.name)
+            const Pete = new Engineer('pete', 32, 'email');
+            const nameTest = Pete.getName()
             expect(nameTest).toEqual('pete')
         })
     })
     describe('getId', () => {
         it('should return the value of the id property', () => {
-            const Pete = new Engineer(name, 2, email);
-            const idTest = Pete.getId(this.id)
+            const Pete = new Engineer('name', 2, 'email');
+            const idTest = Pete.getId()
             expect(idTest).toEqual(2)
         })
     })
     describe('getEmail', () => {
         it('should return the value of the email property', () => {
-            const Pete = new Engineer(name, id, 'test@yahoo.old');
-            const emailTest = Pete.getEmail(this.email)
+            const Pete = new Engineer('pete', 2, 'test@yahoo.old');
+            const emailTest = Pete.getEmail()
             expect(emailTest).toEqual('test@yahoo.old')
         })
     })
     describe('getGithub', () => {
         it('should return the value of the github property', () => {
-            const Pete = new Engineer(name, id, email, "peteTheCat");
-            const githubTest = Pete.getGithub(this.github)
-            expect(emailTest).toEqual('peteTheCat')
+            const Pete = new Engineer('pete', 2, 'pete.com', "peteTheCat");
+            const githubTest = Pete.getGithub()
+            expect(githubTest).toEqual('peteTheCat')
         })
     })
     describe('getRole', () => {
         it('should return the value of the role property', () => {
-            const Pete = new Engineer(name, id, email);
+            const Pete = new Engineer('pete', 2, 'pete.com');
             expect(Pete.getRole()).toEqual('Engineer')
         })
     })

@@ -1,8 +1,29 @@
-.teamCard{
-    border: solid blue;
+h1{
+    text-align: center;
+    background-color: aqua;
+    color: ghostwhite;
     border-radius: 15px;
+    border: none;
 }
 
-.cardHeader{
-    background-color: red;
+.teamCard{
+    border: solid #0078D4;
+    border-radius: 5px;
+    padding: 5%;
+    display: flex;
+}
+
+.card{
+    border: solid #F44336;
+    border-radius: 15px;
+    padding: 2%;
+    margin: auto;
+}
+
+.card-header{
+
+    background-color: aqua;
+    text-align: center;
+    color: ghostwhite;
+    border-radius: 15px;
 }

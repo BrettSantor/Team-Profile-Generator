@@ -23,28 +23,28 @@ describe('Manager', () => {
     })
     describe('getName', () => {
         it('should return the value of the name property', () => {
-            const Pete = new Manager('pete', id, email);
-            const nameTest = Pete.getName(this.name)
+            const Pete = new Manager('pete', 87, 'email');
+            const nameTest = Pete.getName()
             expect(nameTest).toEqual('pete')
         })
     })
     describe('getId', () => {
         it('should return the value of the id property', () => {
-            const Pete = new Manager(name, 2, email);
-            const idTest = Pete.getId(this.id)
+            const Pete = new Manager('name', 2, 'email');
+            const idTest = Pete.getId()
             expect(idTest).toEqual(2)
         })
     })
     describe('getEmail', () => {
         it('should return the value of the email property', () => {
-            const Pete = new Manager(name, id, 'test@yahoo.old');
-            const emailTest = Pete.getEmail(this.email)
+            const Pete = new Manager('name', 786, 'test@yahoo.old');
+            const emailTest = Pete.getEmail()
             expect(emailTest).toEqual('test@yahoo.old')
         })
     })
     describe('getRole', () => {
         it('should return the value of the role property', () => {
-            const Pete = new Manager(name, id, email);
+            const Pete = new Manager('name', 'id', 'email');
             expect(Pete.getRole()).toEqual('Manager')
         })
     })
