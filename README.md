@@ -1,7 +1,8 @@
 # Team Profile Generator
 ![badmath](https://img.shields.io/badge/license-None-red)
 ## description
-This app will create a webpage with every team members information so that it can be quickly accessed 
+[video link to see the app in action](https://drive.google.com/file/d/1T64gr2LNvPoNcVd5DWWfh9OqbtTcvqKu/view?usp=sharing)
+This app will create a webpage with every team members information so that it can be quickly accessed.
 ## Table of Contents 
  * [Installation](#installation)
 * [Usage](#usage)
@@ -12,7 +13,7 @@ This app will create a webpage with every team members information so that it ca
 * [Questions](#questions)
 
 ## Installation 
- This app utilizes inquirer, node and jest
+ This app utilizes inquirer, node and jest, you will need to utilize 'npm i' to download the dependencies.
 ## Usage 
  You will need to launch from node to use this application
 ## Credits 
